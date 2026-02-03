@@ -1,0 +1,77 @@
+.form-layout {
+  height: 75vh;
+  width: 100%;
+  border-radius: 10px;
+}
+.table-responsive {
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  max-height: 207px;
+  overflow-y: auto;
+}
+.titile {
+  color: rgb(108, 108, 108);
+}
+.table {
+  border: none;
+  border-style: none;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-style: none !important;
+}
+.submit-container {
+  position: relative;
+}
+.submit-btn {
+  position: fixed;
+  bottom: 62px;
+  right: 54px;
+}
+@media (max-width: 768px) {
+  .titile {
+    font-size: 19px;
+  }
+  .table-responsive {
+    max-height: 469px;
+    overflow-y: auto;
+  }
+  .submit-container {
+    position: unset;
+  }
+  .submit-btn {
+    position: unset;
+  }
+  .form-layout {
+    height: 82vh;
+  }
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+  .form-layout {
+    height: 112vh;
+  }
+  .titile {
+    font-size: 17px;
+  }
+  .line-item-titile {
+    font-size: 15px;
+  }
+  .table-responsive {
+    max-height: 220px;
+    overflow-y: auto;
+  }
+  .submit-container {
+    position: unset;
+  }
+  .submit-btn {
+    position: unset;
+  }
+}
